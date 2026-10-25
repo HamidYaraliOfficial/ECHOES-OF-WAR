@@ -1,0 +1,12 @@
+{
+  "scenarioId": "Scenario_001_OpeningMoves",
+  "displayNameKey": "scenario.opening_moves.name",
+  "mapAsset": "/Game/Maps/Data/MainCampaignMap.MainCampaignMap",
+  "playableFactions": ["NorthernCoalition", "SouthernDirectorate"],
+  "aiFactions": ["EasternCommonwealth", "FreeMilitiaCouncil"],
+  "victoryConditions": [
+    { "type": "ControlRegionCount", "faction": "player", "threshold": 12 },
+    { "type": "SurviveDays", "days": 180 }
+  ],
+  "startingSimDay": 0
+}

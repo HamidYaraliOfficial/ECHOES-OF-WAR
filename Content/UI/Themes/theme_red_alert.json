@@ -1,0 +1,1 @@
+{ "theme": "RedAlert", "backgroundPrimary": "#1A0505", "backgroundSecondary": "#290A0A", "accent": "#D92626", "textPrimary": "#FBEBEB", "textSecondary": "#D9A9A9", "warning": "#F28C0D", "critical": "#FF1F1F", "cornerRadius": 4, "acrylicBlur": true }

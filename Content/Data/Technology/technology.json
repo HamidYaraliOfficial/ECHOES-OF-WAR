@@ -1,0 +1,13 @@
+{
+  "researchNodes": [
+    { "researchId": "LogisticsAutomation1", "field": "Logistics", "prerequisites": [], "costIndustrialPoints": 120, "durationDays": 12, "appliedEffectTag": "Logistics.RouteCapacity+10%" },
+    { "researchId": "ArmorComposite1", "field": "Armor", "prerequisites": [], "costIndustrialPoints": 150, "durationDays": 15, "appliedEffectTag": "Units.Tank.Armor+15%" },
+    { "researchId": "SecureComms1", "field": "Communications", "prerequisites": [], "costIndustrialPoints": 90, "durationDays": 8, "appliedEffectTag": "Comms.OrderDelay-20%" },
+    { "researchId": "AdvancedRecon1", "field": "Recon", "prerequisites": ["SecureComms1"], "costIndustrialPoints": 130, "durationDays": 10, "appliedEffectTag": "Intel.ReconRange+25%" },
+    { "researchId": "RapidMobility1", "field": "Mobility", "prerequisites": [], "costIndustrialPoints": 110, "durationDays": 10, "appliedEffectTag": "Units.MechInfantry.Mobility+20%" },
+    { "researchId": "LayeredAirDefense1", "field": "AirDefense", "prerequisites": [], "costIndustrialPoints": 140, "durationDays": 14, "appliedEffectTag": "Units.AntiAir.Range+20%" },
+    { "researchId": "CombatEngineering2", "field": "Engineering", "prerequisites": [], "costIndustrialPoints": 100, "durationDays": 9, "appliedEffectTag": "Infrastructure.RepairRate+25%" },
+    { "researchId": "FieldMedicine2", "field": "Medical", "prerequisites": [], "costIndustrialPoints": 95, "durationDays": 9, "appliedEffectTag": "Medical.RecoveryRate+20%" },
+    { "researchId": "LogisticsAutomation2", "field": "Automation", "prerequisites": ["LogisticsAutomation1"], "costIndustrialPoints": 200, "durationDays": 18, "appliedEffectTag": "Logistics.ConvoyAutonomy+1" }
+  ]
+}

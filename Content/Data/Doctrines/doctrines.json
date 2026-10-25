@@ -1,0 +1,8 @@
+{
+  "doctrines": [
+    { "doctrineId": "DefensiveAttrition", "defensivePreference": 1.6, "mobilityPreference": 0.6, "fireSupportPreference": 1.0, "logisticsPreference": 1.2, "riskTolerance": 0.5 },
+    { "doctrineId": "MobileWarfare",      "defensivePreference": 0.7, "mobilityPreference": 1.7, "fireSupportPreference": 0.8, "logisticsPreference": 1.1, "riskTolerance": 1.3 },
+    { "doctrineId": "FireSupportHeavy",   "defensivePreference": 1.1, "mobilityPreference": 0.7, "fireSupportPreference": 1.8, "logisticsPreference": 1.3, "riskTolerance": 0.8 },
+    { "doctrineId": "GuerillaMobility",   "defensivePreference": 0.9, "mobilityPreference": 1.5, "fireSupportPreference": 0.6, "logisticsPreference": 0.7, "riskTolerance": 1.5 }
+  ]
+}

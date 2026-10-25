@@ -1,0 +1,32 @@
+{
+  "factions": [
+    {
+      "factionId": "NorthernCoalition",
+      "displayNameKey": "faction.northern_coalition.name",
+      "startingDoctrine": "DefensiveAttrition",
+      "capitalRegion": "Ashford",
+      "relationsBias": "defensive"
+    },
+    {
+      "factionId": "SouthernDirectorate",
+      "displayNameKey": "faction.southern_directorate.name",
+      "startingDoctrine": "MobileWarfare",
+      "capitalRegion": "Veyron",
+      "relationsBias": "aggressive"
+    },
+    {
+      "factionId": "EasternCommonwealth",
+      "displayNameKey": "faction.eastern_commonwealth.name",
+      "startingDoctrine": "FireSupportHeavy",
+      "capitalRegion": "Halbrecht",
+      "relationsBias": "opportunistic"
+    },
+    {
+      "factionId": "FreeMilitiaCouncil",
+      "displayNameKey": "faction.free_militia.name",
+      "startingDoctrine": "GuerillaMobility",
+      "capitalRegion": "Kesra",
+      "relationsBias": "independent"
+    }
+  ]
+}

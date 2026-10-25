@@ -1,0 +1,17 @@
+{
+  "unitTemplates": [
+    { "unitTemplateId": "InfantrySquad",      "category": "Infantry",           "authorizedStrength": 40  },
+    { "unitTemplateId": "MechInfantryCoy",    "category": "MechanizedInfantry", "authorizedStrength": 60  },
+    { "unitTemplateId": "TankPlatoon",        "category": "Tank",               "authorizedStrength": 12  },
+    { "unitTemplateId": "ArtilleryBattery",   "category": "Artillery",          "authorizedStrength": 18  },
+    { "unitTemplateId": "AntiAirBattery",     "category": "AntiAir",            "authorizedStrength": 16  },
+    { "unitTemplateId": "ReconTroop",         "category": "Recon",              "authorizedStrength": 20  },
+    { "unitTemplateId": "EngineerCompany",    "category": "Engineer",           "authorizedStrength": 50  },
+    { "unitTemplateId": "SpecialForcesTeam",  "category": "SpecialForces",      "authorizedStrength": 12  },
+    { "unitTemplateId": "LogisticsConvoyCoy", "category": "LogisticsUnit",      "authorizedStrength": 30  },
+    { "unitTemplateId": "MedicalCompany",     "category": "Medical",            "authorizedStrength": 25  },
+    { "unitTemplateId": "DroneFlight",        "category": "Drone",              "authorizedStrength": 8   },
+    { "unitTemplateId": "ElectronicWarfarePlatoon", "category": "ElectronicWarfare", "authorizedStrength": 15 },
+    { "unitTemplateId": "SupportDetachment",  "category": "Support",            "authorizedStrength": 20  }
+  ]
+}

@@ -1,0 +1,1 @@
+{ "theme": "HighContrast", "backgroundPrimary": "#000000", "backgroundSecondary": "#101010", "accent": "#FFE600", "textPrimary": "#FFFFFF", "textSecondary": "#DDDDDD", "warning": "#FFB000", "critical": "#FF3333", "cornerRadius": 2, "acrylicBlur": false }

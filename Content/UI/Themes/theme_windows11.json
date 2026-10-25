@@ -1,0 +1,1 @@
+{ "theme": "Windows11", "backgroundPrimary": "#1B1B1B", "backgroundSecondary": "#252525", "accent": "#0078D4", "textPrimary": "#F2F2F2", "textSecondary": "#B3B3B3", "warning": "#EBA70D", "critical": "#D92B2B", "cornerRadius": 8, "acrylicBlur": true }
