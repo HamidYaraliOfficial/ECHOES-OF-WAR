@@ -1,0 +1,32 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "Strategy / War Simulation",
+  "Description": "ECHOES OF WAR - Dynamic Tactical Strategy, War Simulation and Real-Time Command game.",
+  "Modules": [
+    { "Name": "EchoesOfWarCore", "Type": "Runtime", "LoadingPhase": "PreDefault" },
+    { "Name": "Simulation",      "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "World",           "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Units",           "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Combat",          "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Logistics",       "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Economy",         "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Politics",        "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Research",        "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "AI",              "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Save",            "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Networking",      "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "UI",              "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Tools",           "Type": "Editor",  "LoadingPhase": "Default" },
+    { "Name": "EchoesOfWar",     "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "Tests",           "Type": "DeveloperTool", "LoadingPhase": "Default" }
+  ],
+  "Plugins": [
+    { "Name": "EnhancedInput",        "Enabled": true },
+    { "Name": "GameplayAbilities",    "Enabled": true },
+    { "Name": "JsonBlueprintUtilities","Enabled": true },
+    { "Name": "UMG",                  "Enabled": true },
+    { "Name": "Localization",         "Enabled": true }
+  ],
+  "TargetPlatforms": ["Windows"]
+}
